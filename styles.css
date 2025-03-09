@@ -92,61 +92,8 @@ header {
     margin-top: 50px;
 }
 
-/* Donate Button */
-.donate-btn {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(45deg, #ff9800, #ff5722);
-    border: none;
-    border-radius: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.4);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
 
-/* Button Hover Effect */
-.donate-btn:hover {
-    background: linear-gradient(45deg, #ff5722, #ff9800);
-    transform: scale(1.1);
-    box-shadow: 0 8px 20px rgba(255, 87, 34, 0.6);
-}
-
-/* Bread Styling */
-.bread {
-    position: absolute;
-    top: 50px;
-    font-size: 30px;
-    opacity: 0; /* Initially hidden */
-}
-
-/* Child's Hand */
-.child-hand {
-    font-size: 50px;
-    margin-top: 80px;
-}
-
-/* Thank You Message */
-#thank-you-msg {
-    font-size: 18px;
-    font-weight: bold;
-    color: green;
-    margin-top: 20px;
-    display: none; /* Initially hidden */
-}
-
-
-
-
-
-
-
-/* donate button 
+/* donate button */
 
 .donate-btn{
     display: inline-block;
@@ -165,16 +112,16 @@ header {
     position: relative;
     overflow: hidden;
 }
-    */
-/* Hover effect 
+
+/* Hover effect */
 .donate-btn:hover {
     background: linear-gradient(45deg, #ff9800, #ff5722);
     transform: scale(1.1);
     box-shadow: 0 8px 20px rgba(255, 87, 34, 0.6);
 }
-*/
 
-/* Animated Shine Effect 
+
+/* Animated Shine Effect */
 .donate-btn::before {
     content: "";
     position: absolute;
@@ -190,23 +137,23 @@ header {
 .donate-btn:hover::before {
     left: 150%;
 }
-*/
 
-/* Coin Animation 
+
+/* Coin Animation */
 .coin {
     display: inline-block;
     font-size: 24px;
     animation: dropCoin 1s infinite;
 }
-*/
 
-/* Coin Drop Keyframes 
+
+/* Coin Drop Keyframes */
 @keyframes dropCoin {
     0% { transform: translateY(-10px); opacity: 0; }
     50% { transform: translateY(5px); opacity: 1; }
     100% { transform: translateY(0); opacity: 0; }
 }
-*/
+
 
 /*about */
 

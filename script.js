@@ -20,21 +20,3 @@ document.querySelector("form").addEventListener("submit", function(e) {
         alert("Please fill in all fields before submitting.");
     }
 });
-
- // donate animation
-function giveBread() {
-    let bread = document.getElementById("bread");
-    let message = document.getElementById("thank-you-msg");
-
-    // Reset the bread position
-    bread.style.opacity = "1";
-    bread.style.transition = "transform 1s ease-in-out, opacity 0.5s";
-    bread.style.transform = "translateY(80px)";
-
-    // Hide bread and show message after animation
-    setTimeout(() => {
-        bread.style.opacity = "0";
-        message.innerHTML = "Thank you for your donation! ❤️";
-        message.style.display = "block";
-    }, 1000);
-}
