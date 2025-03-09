@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aagaz-e-Taleem</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Aagaz-e-Taleem Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#donate" class="donate-button">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Empowering Education for All</h1>
+            <p>Join us in our mission to provide quality education to underprivileged communities.</p>
+            <div class="donation-container">
+                <a href="#" class="donate-btn" onclick="giveBread()">Donate Now</a>
+                <div class="bread" id="bread">🍞</div>
+                <div class="child-hand">🤲</div>
+            </div>
+            <p id="thank-you-msg"></p>
+            
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>ABOUT US</h2>
+                <p>Aaghaaz e Taleem AeT is a non-profit organization founded in November 2017 by students of Jamia Millia Islamia University. At AeT, we are dedicated to designing interventions aimed at reducing hunger and bridging skill gaps among children in underserved communities across Delhi. Our vision is to empower underprivileged children by providing them with access to education and opportunities for physical and mental growth. We believe in instilling morals and values that will guide them towards becoming compassionate individuals and responsible citizens of our nation. Through our efforts, we aim to equip these children with the confidence, enthusiasm, and skills necessary to make a positive impact in all aspects of society. At AeT, we live and work by the motto: EDUCATE, EMPOWER, ENLIGHTEN.</p>
+            </div>
+            <div class="about-image">
+                <img src="download.jpeg" alt="Children playing">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <h3>Community Learning Centers</h3>
+            <p>Establishing centers to provide free educational resources and tutoring.</p>
+        </div>
+        <div class="project">
+            <h3>Teacher Training Programs</h3>
+            <p>Enhancing the skills of educators to improve teaching quality.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Educational Workshops</h3>
+            <p>Conducting workshops on various subjects to enhance learning.</p>
+        </div>
+        <div class="service">
+            <h3>Scholarship Programs</h3>
+            <p>Providing financial assistance to deserving students.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery-image">
+            <img src="image1.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-image">
+            <img src="image2.jpg" alt="Gallery Image 2">
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: info@aagazetaleem.org</p>
+        <p>Phone: +91-12345-67890</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Aagaz-e-Taleem. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://twitter.com/aagazetaleem" target="_blank">Twitter</a>
+            <a href="https://facebook.com/aagazetaleem" target="_blank">Facebook</a>
+            <a href="https://linkedin.com/company/aagazetaleem" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
