@@ -237,17 +237,24 @@ h2 {
 }
 
 .section-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: normal;
     margin-bottom: 30px;
 }
 
-.projects-container {
+.upper-container {
     display: flex;
     justify-content: center;
     gap: 8%;
     flex-wrap: wrap;
 }
+.lower-container {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    flex-wrap: wrap;
+}
+
 
 .project-card {
     background: #ebebeb;
@@ -261,6 +268,10 @@ h2 {
 
 .project-card:hover {
     transform: translateY(-5px);
+}
+
+.lower-container {
+    margin-top: 40px; /* Adjust this value for more or less space */
 }
 
 
